@@ -7,13 +7,19 @@
     "build": "webpack",
     "start": "webpack-dev-server"
   },
-  "keywords": ["webpack", "typescript", "sass"],
+  "keywords": [
+    "webpack",
+    "typescript",
+    "sass"
+  ],
   "author": "Eric",
   "license": "MIT",
   "dependencies": {
     "@types/angular": "^1.7.0",
     "angular": "^1.8.0",
     "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "font-awesome": "^4.7.0",
     "html-webpack-plugin": "^4.3.0",
     "node-sass": "^4.14.1",
     "raw-loader": "^4.0.1",
