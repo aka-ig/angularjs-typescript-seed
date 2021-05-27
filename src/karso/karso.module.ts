@@ -1,7 +1,7 @@
-import * as angular from 'angular';
+import { module as ngModuel } from 'angular';
 import { KarsoRootComponent } from './components/root/root.component';
 
-const karso = angular.module('karso', []);
+const karso = ngModuel('karso', []);
 karso.component('karsoRoot', KarsoRootComponent);
 
 export const ModuleKarso = karso.name;

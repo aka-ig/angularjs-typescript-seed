@@ -1,5 +1,5 @@
-import * as angular from 'angular';
+import { bootstrap as ngBootstrap } from 'angular';
 import { ModuleKarso } from './karso/karso.module';
 import './style.scss';
 
-angular.bootstrap(document, [ModuleKarso]);
+ngBootstrap(document, [ModuleKarso]);
